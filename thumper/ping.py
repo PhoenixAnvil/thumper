@@ -1,5 +1,6 @@
 import requests
 
+
 def ping_api(url, count):
     if count is None:
         while True:
